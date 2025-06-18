@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExemploAula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Calculadora de Média</h2>
+    </header>
+    <div class="conteiner">
+        <p>Digite duas notas para calcular a média:</p>
+
+        <!-- Campo para Digitar a primeira nota-->
+        <input type="number" id="nota1" placeholder="Nota 1" min="0" max="10" step="0.1"><br>
+        <!-- Campo para Digitar a segunda nota-->
+        <input type="number" id="nota2" placeholder="Nota 2" min="0" max="10" step="0.1"><br>
+
+        <button onclick="calcularMedia()">Calcular Média</button>
+
+        <!-- Parágrafo onde será exibido o resultado da média-->
+        <p id="resultado"></p>
+
+    </div>
+
+    <img src="../Exemplo1_SubindoGit/imagens/senai.jpeg" alt="Imagem da logo" class="rodape-imagem">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
